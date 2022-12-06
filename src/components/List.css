@@ -1,0 +1,47 @@
+body {
+    background-color: #303030;
+}
+
+.container {
+    background-color: rgb(178, 219, 255);
+    padding: 2em;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    justify-content: center;
+    max-width: 800px;
+    border-radius: 12px;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 600px;
+    margin: auto;
+}
+
+.actions input {
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+}
+
+.actions button {
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+    background-color: #68b2fb;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    list-style: none;
+}

@@ -1,0 +1,19 @@
+.listItem {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 2em;
+    cursor: pointer;
+    animation: slide-card 300ms ease-out;
+}
+
+@keyframes slide-card {
+    from {
+        opacity: 0;
+        transform: translateY(-3rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
